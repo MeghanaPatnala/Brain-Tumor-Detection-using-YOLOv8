@@ -2,10 +2,10 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
-model = YOLO("C:\\Users\\megha\\PycharmProjects\\braintumor_detection\\brainbest (1).pt")
+model = YOLO("best.pt path")
 
 # Define image path
-image_path = "C:\\Users\\megha\\PycharmProjects\\braintumor_detection\\brain.jpg"
+image_path = "brain.jpg path"
 
 # Read the image
 frame = cv2.imread(image_path)
